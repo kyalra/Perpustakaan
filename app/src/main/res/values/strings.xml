@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Perpustakaan</string>
+
+    <string name="book_details">Book Detail</string>
+    <string name="add_book">Add Book</string>
+
+    <string name="hint_judul">Judul</string>
+    <string name="hint_penerbit">Penerbit</string>
+    <string name="hint_penulis">Penulis</string>
+
+
+    <string name="book_id">BOOK_ID</string>
+    <string name="search">Search</string>
+    <string name="save">Save</string>
+</resources>
