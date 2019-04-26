@@ -5,7 +5,7 @@
         android:layout_height="match_parent">
 
     <fragment
-            android:name="irfan.sampling.androidlatihan9.views.views_add.FragmentAddPeople"
+            android:name="com.l.perpustakaan.views.view_add.FragmentAddBook"
             android:id="@+id/addPeopleFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
