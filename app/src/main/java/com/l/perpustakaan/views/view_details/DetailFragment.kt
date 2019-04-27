@@ -9,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.l.perpustakaan.R
 import com.l.perpustakaan.data.data_model.Book
+import kotlinx.android.synthetic.main.fragment_details.*
 import kotlinx.android.synthetic.main.layout_list_item.*
 
 class DetailFragment: Fragment(){
@@ -34,8 +35,8 @@ class DetailFragment: Fragment(){
         }
     }
     private fun populateBookDetail(book: Book?){
-        textViewjudul.text = book?.judul
-        textViewpenerbit.text = book?.penerbit
-        textViewpenulis.text = book?.penulis
+        textViewJudul.text = book?.judul
+        textViewPengarang.text = book?.penerbit
+        textViewDeskripsi.text = book?.penulis
     }
 }

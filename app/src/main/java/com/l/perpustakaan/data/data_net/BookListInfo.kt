@@ -15,24 +15,18 @@ class BookListInfo {
                     "Terlahir",
                     "Kyalra",
                     "Rizky",
-                    "2009",
-                    "300",
                     1))
             po_books.add(
                 Book(
                     "CyberPunk",
                     "Kyalra",
                     "Rizky",
-                    "2077",
-                    "3000",
                     2))
             po_books.add(
                 Book(
                     "CodeWorld",
                     "Kyalra",
                     "Rizky",
-                    "2019",
-                    "459",
                     3))
             return po_books
         }

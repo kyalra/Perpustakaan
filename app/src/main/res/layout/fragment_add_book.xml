@@ -6,8 +6,7 @@
         android:layout_height="match_parent"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
-        android:padding="16dp"
->
+        android:padding="16dp">
 
     <android.support.v7.widget.CardView
             android:layout_width="match_parent"
@@ -18,8 +17,8 @@
             android:layout_margin="10dp"
             android:foreground="?android:attr/selectableItemBackground"
             android:background="@color/cardview_light_background"
-            app:cardCornerRadius="@dimen/cardview_default_radius"
-            app:cardElevation="@dimen/cardview_default_elevation">
+            app:cardCornerRadius="2dp"
+            app:cardElevation="2dp">
 
         <LinearLayout
                 android:layout_width="match_parent"
@@ -52,7 +51,7 @@
                 <EditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Pengarang"
+                        android:hint="Penerbit"
                         android:inputType="textPostalAddress"
                         android:lines="1"/>
             </android.support.design.widget.TextInputLayout>

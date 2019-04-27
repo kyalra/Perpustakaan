@@ -1,8 +1,8 @@
 package com.l.perpustakaan.views.view_add
 
-import android.support.v4.app.Fragment
 import android.arch.lifecycle.ViewModelProviders
 import android.os.Bundle
+import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -12,7 +12,7 @@ import com.l.perpustakaan.R
 import com.l.perpustakaan.data.data_model.Book
 import kotlinx.android.synthetic.main.fragment_add_book.*
 
-class FragmentAddBook: Fragment() {
+class FragmentAddBook:Fragment(){
     lateinit var btn_ : Button
     private lateinit var viewModel: AddBookViewModel
 
